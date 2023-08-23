@@ -1,0 +1,12 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-bottom: 2px solid #8080803d;
+    padding-bottom: 5px;
+}
+.header-container img{
+    width: 70px;
+    border-radius: 50%;
+}

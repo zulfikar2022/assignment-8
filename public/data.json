@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "coverImage": "https://i.ibb.co/9tt3cxp/html-css-collage-concept-with-person.jpg",
+        "authorName": "Ashraful Islam",
+        "authorImage": "https://i.ibb.co/VvYFkzN/ashraful-Image.jpg",
+        "writingDate": "March 15",
+        "blogTitle": "Unraveling Quantum Algorithms: When Code Meets the Quantum Realm",
+        "readingTime": 5
+    },
+    {
+        "id":2,
+        "coverImage": "https://i.ibb.co/rvhfd1y/pexels-christina-morillo-1181675.jpg",
+        "authorName": "Pranto Roy",
+        "authorImage": "https://i.ibb.co/L90C2Qj/pranto2.png",
+        "writingDate": "April 26",
+        "blogTitle": "Easter Eggs in Code: Hunting for Hidden Surprises in Your Favorite Software",
+        "readingTime": 7
+    },
+    {
+        "id":3,
+        "coverImage": "https://i.ibb.co/V2hd2FZ/rear-view-programmer-working-all-night-long.jpg",
+        "authorName": "Nur Hossain",
+        "authorImage": "https://i.ibb.co/rFsrcTR/nur.jpg",
+        "writingDate": "June 25",
+        "blogTitle": "From Zero to Python Hero: A Visual Guide to Mastering Python's Basics",
+        "readingTime": 9
+    },
+    {
+        "id":4,
+        "coverImage": "https://i.ibb.co/QpFDRZK/pexels-rodrigo-santos-3888151.jpg",
+        "authorName": "Golam Rabby",
+        "authorImage": "https://i.ibb.co/7K3FNKn/rabby.jpg",
+        "writingDate": "February 15",
+        "blogTitle": "AI and Creativity: Exploring the Synergy Between Code and Artistic Expression",
+        "readingTime": 5
+    }
+]

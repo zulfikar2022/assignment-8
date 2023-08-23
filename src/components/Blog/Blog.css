@@ -1,0 +1,41 @@
+.blog{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.cover-image{
+    width: 100%;
+    height:40vh;
+    border-radius: 10px;
+}
+.author-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.author-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.authorName-and-writing-time{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.authorName-and-writing-time h3,p{
+    margin: 0;
+}
+.mark-as-read{
+    border: none;
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}

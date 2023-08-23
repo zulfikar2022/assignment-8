@@ -1,0 +1,8 @@
+.spent-time{
+    margin-top: 20px;
+    border: 1px solid purple;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: purple;
+    background-color: rgba(128, 0, 128, 0.114);
+}
