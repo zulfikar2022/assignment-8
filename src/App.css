@@ -9,3 +9,17 @@
   grid-template-columns: 3fr 1fr;
   gap: 20px;
 }
+.bookmarked-title-list{
+  background-color: gray;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: large;
+}
+.bookmarked-title-list-item{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

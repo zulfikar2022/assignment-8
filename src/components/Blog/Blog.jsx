@@ -5,11 +5,14 @@ import { faCoffee, faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Blog = ({ blog,handleMarkAsRead }) => {
+
+const Blog = ({ blog, handleMarkAsRead, handleBookmarkAndShowTitle }) => {
     const notify = () => toast("This blog is already bookmarked!");
     const { coverImage, authorImage, authorName, writingDate, readingTime, blogTitle, id } = blog;
     const [bookmarked, setBookmarked] = useState(false);
+
     const handleBookmark = () => {
+        handleBookmarkAndShowTitle(blogTitle);
         if (!bookmarked) {
             setBookmarked(!bookmarked);
             console.log("The blog is bookmarked")
@@ -28,6 +31,7 @@ const Blog = ({ blog,handleMarkAsRead }) => {
             });
         }
     }
+
     return (
         <div className='blog'>
             <img className='cover-image' src={coverImage} alt="" />
@@ -45,6 +49,8 @@ const Blog = ({ blog,handleMarkAsRead }) => {
             </div>
             <h1>{blogTitle}</h1>
             <button className='mark-as-read' onClick={() => handleMarkAsRead(readingTime)}>Mark as Read</button>
+
+            <hr />
             <ToastContainer
                 position="top-center"
                 autoClose={5000}
@@ -57,7 +63,6 @@ const Blog = ({ blog,handleMarkAsRead }) => {
                 pauseOnHover = {false}
                 theme="light"
             />
-           <hr />
         </div>
     );
 };
